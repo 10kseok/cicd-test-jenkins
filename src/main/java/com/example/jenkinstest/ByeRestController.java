@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class ByeRestController {
-
     @GetMapping
     public String sayBye() {
         return "Bye";
